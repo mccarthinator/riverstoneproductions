@@ -441,7 +441,10 @@ header.masthead {
     margin-top: 0; }
 
 section#contact {
-  background-color: #212529;
+  background-image: url("../img/arthill.jpg");
+  color: black;
+}
+  /* background-color: #212529;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center; }
@@ -466,17 +469,17 @@ section#contact {
   section#contact :-moz-placeholder {
     font-weight: 700;
     color: #ced4da;
-    /* Firefox 18- */
+ 
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact ::-moz-placeholder {
     font-weight: 700;
     color: #ced4da;
-    /* Firefox 19+ */
+
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact :-ms-input-placeholder {
     font-weight: 700;
     color: #ced4da;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } */
 
 footer {
   padding: 25px 0;
