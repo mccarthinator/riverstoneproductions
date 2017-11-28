@@ -132,8 +132,8 @@ body {
 
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url("../img/deaf.jpg");
+  color: lightgrey;
+  background-image: url("../img/riverstone-header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -154,6 +154,7 @@ header.masthead {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
+      margin-top: 200px;
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
