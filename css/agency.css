@@ -473,15 +473,20 @@ section#contact {
     -o-background-size: cover;
     background-size: cover; }
 
+#contactUsHeader {
+  font-family: Courier New, Courier, monospace;
+}    
+
 #contactTextSize1 {
+  font-family: Courier New, Courier, monospace;
   font-size: 30px;
   color: whitesmoke;
 }
 
 #contactTextSize2 {
+  font-family: Courier New, Courier, monospace;
   font-size: 30px;
   color: whitesmoke;
-
 }
 
   /* background-color: #212529;
