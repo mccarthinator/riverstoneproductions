@@ -133,7 +133,7 @@ body {
 header.masthead {
   text-align: center;
   color: lightgrey;
-  background-image: url("../img/riverstone-header.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/riverstone-header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -154,9 +154,19 @@ header.masthead {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
-      margin-top: 200px;
+      margin-top: 80px;
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+#riverstoneHeaderText1 {
+  font-size: 85px;
+  color: whitesmoke;
+}
+
+#riverstoneHeaderText2 {
+  font-size: 85px;
+  color: orangered;
+}
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -178,6 +188,11 @@ header.masthead {
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
+
+  #servicesHeading {
+    margin-top: 5px;
+    margin-bottom: 80px;
+  }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -441,11 +456,34 @@ header.masthead {
     margin-top: 0; }
 
 section#contact {
-  background-image: url("../img/arthill.jpg");
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../img/arthill.jpg");
+  /* background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../img/arthill.jpg");
   background-repeat: no-repeat;
+  width: 100%;
   color: black;
+  font-size: 22px; */
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    background-image: url("../img/arthill.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+#contactTextSize1 {
+  font-size: 30px;
+  color: whitesmoke;
 }
+
+#contactTextSize2 {
+  font-size: 30px;
+  color: whitesmoke;
+
+}
+
   /* background-color: #212529;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
