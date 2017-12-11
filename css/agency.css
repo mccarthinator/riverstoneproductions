@@ -25,7 +25,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: Courier New, Courier, monospace; }
 
 section {
   padding: 100px 0; }
@@ -133,7 +133,7 @@ body {
 header.masthead {
   text-align: center;
   color: lightgrey;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/riverstone-header.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/gears.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -486,6 +486,10 @@ section#contact {
 #contactTextSize2 {
   font-family: Courier New, Courier, monospace;
   font-size: 30px;
+  color: whitesmoke;
+}
+
+.amyEmail {
   color: whitesmoke;
 }
 
