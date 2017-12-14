@@ -130,10 +130,12 @@ body {
         font-size: 1.25em;
         padding: 12px 0; } }
 
-header.masthead {
+ header.masthead {
+  height: 750px;
+  max-width: 100%;
   text-align: center;
   color: lightgrey;
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/cairn.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/cairnwlogo.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -141,32 +143,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px; }
-    header.masthead .intro-text .intro-lead-in {
-      font-size: 22px;
-      font-style: italic;
-      line-height: 22px;
-      margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    header.masthead .intro-text .intro-heading {
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 50px;
-      margin-top: 80px;
-      margin-bottom: 25px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-#riverstoneHeaderText1 {
-  font-size: 85px;
-  color: whitesmoke;
-}
-
-#riverstoneHeaderText2 {
-  font-size: 85px;
-  color: orangered;
-}
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -183,7 +160,7 @@ header.masthead {
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } } */
 
 #services {
   background-color: lightgray;
