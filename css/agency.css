@@ -135,7 +135,7 @@ body {
   width: 100%;
   text-align: center;
   color: lightgrey;
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/cairnwlogo.jpg") no-repeat center center scroll;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/cairn-copy.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -432,7 +432,7 @@ section#contact {
     text-align: center;
     color: black;
     font-size: 22px;
-    background-image: url("../img/arthill.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/gears.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -442,6 +442,7 @@ section#contact {
     background-size: cover; }
 
 #contactUsHeader {
+  color: white;
   font-family: Courier New, Courier, monospace;
 }    
 
