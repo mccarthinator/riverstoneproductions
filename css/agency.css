@@ -504,6 +504,14 @@ section#contact {
     color: #ced4da;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } */
 
+#to-top {
+      display: none;
+      position: fixed;
+      bottom: 5px;
+      right: 5px;
+ }
+
+
 footer {
   padding: 25px 0;
   text-align: center; }
