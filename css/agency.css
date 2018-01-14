@@ -421,7 +421,7 @@ section#contact {
     text-align: center;
     color: black;
     font-size: 22px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/portfolio/gear1.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/gear-smaller.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
