@@ -538,6 +538,21 @@ ul.social-buttons {
   }
 }
 
+/* iphone X vertical query */
+@media only screen and (max-width: 375px) {
+  #topPage {
+    background-image: url("../img/rstone5.jpg");
+  }
+}
+
+/* ipad query */
+@media only screen and (min-width: 767px) and (max-width: 1367px) {
+  #topPage {
+    background-image: url("../img/ipad2.jpg");
+  }
+}
+
+
 
 
 
