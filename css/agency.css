@@ -144,9 +144,6 @@ body {
   }
 
 
-@media (min-width: 768px) {
-   }
-
 #services {
   background-color: lightgray;
 }
@@ -531,3 +528,60 @@ ul.social-buttons {
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #f2560d; }
+
+/* mccarthy media queries for header img ahhhhh */
+
+/* use a centered-text img when width is smaller than 415px (vertical phones) */
+@media only screen and (max-width: 415px) {
+  #topPage {
+    background-image: url("../img/rstone4.jpg");
+  }
+}
+
+
+
+
+
+
+
+
+/* for anything larger than a phone */
+/* @media only screen and (min-width: 1366px) {
+  #phoneText {
+    display: none;
+  }
+} */
+
+
+/* phones in vertical */
+/* @media only screen and (max-width: 415px) {
+  #phoneText {
+      color: orangered;
+      font-size: 100px; 
+  }
+} */
+
+/* phones in horizontal */
+/* @media only screen and (min-width: 640px) and (max-width: 812px) {
+  #phoneText {
+    display: none;
+  }
+} */
+
+/* ipad and ipad pro in vertical */
+/* @media only screen and (min-width: 300px) and (max-width: 1024px) {
+  #phoneText {
+      color: orangered;
+      font-size: 100px; 
+  }
+} */
+
+
+/* ipad and ipad pro in horizontal */
+/* @media only screen and (min-width: 1023px) and (max-width: 1367px) {
+  #phoneText {
+    display: none;
+  }
+} */
+
+
