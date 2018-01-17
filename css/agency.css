@@ -133,7 +133,7 @@ body {
 
 /* header */
 
- .header {
+ #headerTop {
     display: block;
     position: relative;
     width: 100%;
