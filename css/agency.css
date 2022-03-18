@@ -136,7 +136,7 @@ body {
   #topPage {
     width:100% ;
     height: 120vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/rstone-fixed.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/updated_header.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
