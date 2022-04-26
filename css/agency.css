@@ -12,12 +12,12 @@ p {
   font-size: 18px; }
 
 a {
-  color: #f2560d; }
+  color: #1f5781; }
   a:hover {
-    color: #f2560d; }
+    color: #1f5781; }
 
 .text-primary {
-  color: #f2560d !important; }
+  color: #1f5781 !important; }
 
 h1,
 h2,
@@ -58,8 +58,8 @@ section {
   background-color: #f2560d;
   border-color: #f2560d; }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #f2560d !important;
-    border-color: #f2560d !important;
+    background-color: #2c4d32 !important;
+    border-color: #2c4d32 !important;
     color: white; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
@@ -88,7 +88,7 @@ body {
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: #1f5781;
     border: 0;
     background-color: #f2560d;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -102,10 +102,10 @@ body {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: #1f5781;
     font-family: 'Barlow', sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #f2560d; }
+      color: #2c4d32; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -132,15 +132,10 @@ body {
         padding: 12px 0; } }
 
 /* header */
-
   #topPage {
-    width:100% ;
-    height: 120vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/updated_header.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url("../img/updated_header.png") no-repeat center top scroll;
+    background-size: 100% auto;
+    padding-bottom: 40%;
   }
 
 
@@ -323,7 +318,7 @@ body {
       color: white;
       border: 7px solid #e9ecef;
       border-radius: 100%;
-      background-color: #f2560d; }
+      background-color: #2c4d32; }
       .timeline > li .timeline-image h4 {
         font-size: 10px;
         line-height: 14px;
@@ -448,7 +443,7 @@ section#contact {
 }
 
 .amyEmail {
-  color: #f2560d;
+  color: #ffe3a9;
 }
 
 #to-top {
@@ -490,37 +485,29 @@ ul.social-buttons {
     outline: none;
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #f2560d; }
+      background-color: #2c4d32; }
 
 /* mccarthy media queries for header img ahhhhh */
-
 /* use a centered-text img when width is smaller than 415px (vertical phones) */
-@media only screen and (max-width: 415px) {
+/* @media only screen and (max-width: 415px) {
   #topPage {
     background-image: url("../img/rstone4.jpg");
   }
-}
+} */
 
 /* iphone X vertical query */
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
   #topPage {
     background-image: url("../img/rstone5.jpg");
   }
-}
+} */
 
 /* ipad query */
-@media only screen and (min-width: 767px) and (max-width: 1367px) {
+/* @media only screen and (min-width: 767px) and (max-width: 1367px) {
   #topPage {
     background-image: url("../img/ipad2.jpg");
   }
-}
-
-
-
-
-
-
-
+} */
 
 
 /* for anything larger than a phone */
